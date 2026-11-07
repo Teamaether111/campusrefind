@@ -1,0 +1,6 @@
+{
+  "name": "ReFind Campus",
+  "description": "Lost & Found Progressive Web App for university campuses. Report lost belongings, discover found items, and match reports with SmartMatch.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

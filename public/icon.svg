@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#172554" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  
+  <!-- Outer Campus Pin Outline -->
+  <path d="M256 70C184.2 70 126 128.2 126 200C126 288 238 418 248.5 430.5C252.4 435.1 259.6 435.1 263.5 430.5C274 418 386 288 386 200C386 128.2 327.8 70 256 70Z" fill="white" fill-opacity="0.08" stroke="white" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Magnifying Glass Inside Pin -->
+  <!-- Glass Lens -->
+  <circle cx="240" cy="190" r="72" fill="url(#lensGrad)" fill-opacity="0.25" stroke="#60A5FA" stroke-width="16" />
+  <!-- Glass Reflection highlight -->
+  <path d="M200 152C212 140 228 134 246 136" stroke="white" stroke-width="10" stroke-linecap="round" stroke-opacity="0.8"/>
+  
+  <!-- Handle extending diagonally down-right -->
+  <path d="M294 244L348 298" stroke="#93C5FD" stroke-width="20" stroke-linecap="round" />
+  
+  <!-- Small Center Beacon Point -->
+  <circle cx="240" cy="190" r="14" fill="#60A5FA" />
+  <circle cx="240" cy="190" r="6" fill="#FFFFFF" />
+</svg>
